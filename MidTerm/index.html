@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body onload="createGrid()">
+
+    <header class="d-flex flex-column align-items-start my_header">
+      <div class="d-flex align-items-start justify-content-start">
+        <div class="d-flex align-items-center">
+          <div class="d-flex">
+            <img src="images/iitu_logo_small.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} mini_logo" alt="">
+          </div>
+          <div class="form-group">  
+            <input type="text"
+              class="form-control search_input" name="" id="" aria-describedby="helpId" placeholder="Group, Teacher, Room">
+          </div>  
+        </div>
+      </div>
+      <div class="d-flex align-items-start option_bar">
+        <div class="d-flex btn-group btn-group-toggle">
+          <a href="#" id="find_teacher_button" class="button active_button" onclick="find_teacher_button_click()">Find a teacher</a>
+          <a href="#" id="find_group_button" class="button" onclick="find_group_button_click()">Find a group</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="d-flex flex-column">
+
+      <div class="d-flex option_bar mt-4">
+        <div class="d-flex">
+          <select>
+            <option>Select department</option>
+            <option></option>
+            <option>Computer Engineering and Information Security</option>
+            <option>Economy and Business</option>
+            <option>Information Systems</option>
+            <option>Languages Department</option>
+            <option>Mathematical and computer modeling</option>
+            <option>Mediacommunication and history of Kazakhstan</option>
+            <option>Radio Engineering, Electronics and Telecommunication</option>
+          </select>
+        </div>
+        <div class="d-flex ml-1">
+          <select>
+            <option>Select teacher</option>
+            <option>Teacher number 1</option>
+            <option>Teacher number 2</option>
+            <option>Teacher number 3</option>
+            <option>Teacher number 4</option>
+            <option>Teacher number 5</option>
+            <option>Teacher number 6</option>
+            <option>Teacher number 7</option>
+            <option>Teacher number 8</option>
+            <option>Teacher number 9</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column align-items-center">
+        <div class="d-flex mt-4">
+          <h3>CSSE-1801K</h3>
+        </div>
+        <div id="schedule_grid" class="d-flex flex-column mt-4" style="max-width: 90%;">
+          <div id="schedule_grid_row" class="row row-cols-8">
+            <div class="col- grid_border mr-2 mb-2" id="first_item"><p>00:00</p></div>
+            <div class="col grid_border d-flex align-items-center justify-content-center mr-2 mb-2">
+              <p class="mb-1 mt-1">Monday</p>
+            </div>
+            <div class="col grid_border d-flex align-items-center justify-content-center mr-2 mb-2">
+              <p class="mb-1 mt-1">Tuesday</p>
+            </div>
+            <div class="col grid_border d-flex align-items-center justify-content-center mr-2 mb-2">
+              <p class="mb-1 mt-1">Wednesday</p>
+            </div>
+            <div class="col grid_border d-flex align-items-center justify-content-center mr-2 mb-2">
+              <p class="mb-1 mt-1">Thursday</p>
+            </div>
+            <div class="col grid_border d-flex align-items-center justify-content-center mr-2 mb-2">
+              <p class="mb-1 mt-1">Friday</p>
+            </div>
+            <div class="col grid_border d-flex align-items-center justify-content-center mr-2 mb-2">
+              <p class="mb-1 mt-1">Saturday</p>
+            </div>
+            <div class="col grid_border d-flex align-items-center justify-content-center mr-2 mb-2">
+              <p class="mb-1 mt-1">Sunday</p>
+            </div>
+            <div class="w-100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex align-items-center justify-content-center footer">
+      <p>Copyright © 2020,
+        Contact Us</p>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

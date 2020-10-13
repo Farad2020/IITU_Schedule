@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+}
+
+.header_text {
+  font-size: 18px;
+}
+
+.user_name_text {
+  font-size: 14px;
+}
+
+.side_bar_header_text {
+  font-size: 18px;
+}
+
+.side_bar_secondary_text {
+  font-size: 14px;
+  color: black;
+}
+
+.side_bar_secondary_text:hover {
+  background-color: skyblue;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  color: white;
+}

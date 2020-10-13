@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/admin_page_style.css">
+    <script src="https://kit.fontawesome.com/5b1bb6ee02.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class="row header_text">
+      <div class="col-2 border-right" style="background-color: #3BC47E;">
+        <div class="row h-100">
+          <div class="col-10">
+            <div class="d-flex align-items-center h-100">
+              <p class="text-uppercase text-light m-0 ml-2">iitu schedule</p>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="d-flex align-items-center h-100">
+              <p class="text-uppercase text-light m-0"><i class="fas fa-bars"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-10" style="background-color: #34B171;">
+          <div class="row">
+            <div class="col-11">
+              <div class="d-flex h-100">
+                <div class="row w-100">
+                  <div class="d-flex align-items-center">
+                    <p class="text-uppercase text-light m-0 ml-4 mr-4"><i class="fas fa-search"></i></p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div class="dropdown">
+                      <a class="dropdown-toggle text-uppercase text-light m-0 mr-4 text-decoration-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        menu
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div class="dropdown">
+                      <a class="dropdown-toggle text-uppercase text-light m-0 mr-4 text-decoration-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        settings
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div class="dropdown">
+                      <a class="dropdown-toggle text-uppercase text-light m-0 mr-4 text-decoration-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        projects
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5"></div>
+                  <div class="d-flex align-items-center">
+                    <p class="text-uppercase text-light m-0 ml-4"><i class="fas fa-th"></i></p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <p class="text-uppercase text-light m-0 ml-4"><i class="fas fa-bell"></i></p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <p class="text-uppercase text-light m-0 ml-4"><i class="far fa-flag"></i></p>
+                  </div>
+                  <div class="d-flex align-items-center border-right">
+                    <p class="text-uppercase text-light m-0 ml-4 mr-4"><i class="far fa-calendar-plus"></i></p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div class="dropdown">
+                      <a class="dropdown-toggle text-uppercase text-light m-0 ml-4 text-decoration-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="far fa-user"></i>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <p class="text-capitalize text-light mb-0 user_name_text ml-2">name surname</p>
+                    <p class="text-capitalize text-dark mb-0 user_name_text ml-2">position at work</p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <p class="text-uppercase text-light m-0 ml-4"><i class="far fa-address-book"></i></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="row h-100">
+                <div class="col-5"></div>
+                <div class="col-1">
+                  <div class="d-flex align-items-center h-100">
+                    <p class="text-uppercase text-light m-0"><i class="fas fa-bars"></i></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="row h-100">
+      <div class="col-2 border-right">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex flex-column">
+              <p class="text-uppercase text-dark font-weight-bold m-0 ml-2 mt-4 side_bar_header_text">course</p>
+              <a class="text-decoration-none side_bar_secondary_text m-0 ml-4 border-left p-2" href="#"><p class="m-0">1st course</p></a>
+              <a class="text-decoration-none side_bar_secondary_text m-0 ml-4 border-left p-2" href="#"><p class="m-0">2nd course</p></a>
+              <a class="text-decoration-none side_bar_secondary_text m-0 ml-4 border-left p-2" href="#"><p class="m-0">3rd course</p></a>
+              <a class="text-decoration-none side_bar_secondary_text m-0 ml-4 border-left p-2" href="#"><p class="m-0">4th course</p></a>
+
+              <p class="text-uppercase text-dark font-weight-bold m-0 ml-2 mt-4 side_bar_header_text">Speciality</p>
+              <a class="text-decoration-none side_bar_secondary_text m-0 ml-4 border-left p-2" href="#"><p class="m-0">Computer Science</p></a>
+              <a class="text-decoration-none side_bar_secondary_text m-0 ml-4 border-left p-2" href="#"><p class="m-0">Computer Science and Software Engineering</p></a>
+              <a class="text-decoration-none side_bar_secondary_text m-0 ml-4 border-left p-2" href="#"><p class="m-0"></p>Computer Science</a>
+              <a class="text-decoration-none side_bar_secondary_text m-0 ml-4 border-left p-2" href="#"><p class="m-0">Information Systems</p></a>
+              <a class="text-decoration-none side_bar_secondary_text m-0 ml-4 border-left p-2" href="#"><p class="m-0"><i class="fas fa-arrow-down"></i> Show More</p></a>
+
+              <p class="text-uppercase text-dark font-weight-bold m-0 ml-2 mt-4 side_bar_header_text">Group</p>
+              <a class="text-decoration-none side_bar_secondary_text m-0 ml-4 border-left p-2" href="#"><p class="m-0">CSSE 1801</p></a>
+              <a class="text-decoration-none side_bar_secondary_text m-0 ml-4 border-left p-2" href="#"><p class="m-0">CSSE 1802</p></a>
+              <a class="text-decoration-none side_bar_secondary_text m-0 ml-4 border-left p-2" href="#"><p class="m-0">CSSE 1803</p></a>
+              <a class="text-decoration-none side_bar_secondary_text m-0 ml-4 border-left p-2" href="#"><p class="m-0">CSSE 1804</p></a>
+              <a class="text-decoration-none side_bar_secondary_text m-0 ml-4 border-left p-2" href="#"><p class="m-0"><i class="fas fa-arrow-down"></i> Show More</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-10" style="background-color: #F8F9FB;" id="speciality_panel">
+        <div class="row">
+          <div class="col">
+            <h5 class="m-0 mt-4"><button type="button" class="btn btn-outline-success border-0" data-toggle="modal" data-target="#addGroupModal"><i class="far fa-plus-square"></i></button> COMPUTER SCIENCE AND SOFTWARE ENGINEERING GROUPS</h5>
+          </div>
+        </div>
+        <div class="row mt-4 p-2">
+          <div class="col">
+            <div class="row border-bottom p-2 align-items-center">
+              <div class="col"><p class="m-0">Group Name</p></div>
+              <div class="col"><p class="m-0">Metagroup</p></div>
+              <div class="col"><p class="m-0">Show Schedule</p></div>
+              <div class="col"><p class="m-0">Operations</p></div>
+            </div>
+            <div class="row border-bottom p-2 align-items-center">
+              <div class="col"><p class="m-0">CSSE 1801</p></div>
+              <div class="col"><p class="m-0">Metagroup 1</p></div>
+              <div class="col"><button class="btn btn-success">Show Schedule</button></div>
+              <div class="col"><button class="btn btn-primary">Edit</button><button class="btn btn-danger ml-2">Delete</button></div>
+            </div>
+            <div class="row border-bottom p-2 align-items-center">
+              <div class="col"><p class="m-0">CSSE 1801</p></div>
+              <div class="col"><p class="m-0">Metagroup 1</p></div>
+              <div class="col"><button class="btn btn-success">Show Schedule</button></div>
+              <div class="col"><button class="btn btn-primary">Edit</button><button class="btn btn-danger ml-2">Delete</button></div>
+            </div>
+            <div class="row border-bottom p-2 align-items-center">
+              <div class="col"><p class="m-0">CSSE 1801</p></div>
+              <div class="col"><p class="m-0">Metagroup 1</p></div>
+              <div class="col"><button class="btn btn-success">Show Schedule</button></div>
+              <div class="col"><button class="btn btn-primary">Edit</button><button class="btn btn-danger ml-2">Delete</button></div>
+            </div>
+            <div class="row border-bottom p-2 align-items-center">
+              <div class="col"><p class="m-0">CSSE 1801</p></div>
+              <div class="col"><p class="m-0">Metagroup 1</p></div>
+              <div class="col"><button class="btn btn-success">Show Schedule</button></div>
+              <div class="col"><button class="btn btn-primary">Edit</button><button class="btn btn-danger ml-2">Delete</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h5 class="m-0 mt-4"><button type="button" class="btn btn-outline-success border-0" data-toggle="modal" data-target="#addDisciplineModal"><i class="far fa-plus-square"></i></button>COMPUTER SCIENCE AND SOFTWARE ENGINEERING DISCIPLINES</h5>
+          </div>
+        </div>
+        <div class="row mt-4 p-2">
+          <div class="col">
+            <div class="row border-bottom p-2 align-items-center">
+              <div class="col"><p class="m-0">Discipline Name</p></div>
+              <div class="col"><p class="m-0">Number of Lectures</p></div>
+              <div class="col"><p class="m-0">Number of Practices</p></div>
+              <div class="col"><p class="m-0">Number of Labs</p></div>
+              <div class="col"><p class="m-0">Operations</p></div>
+            </div>
+            <div class="row border-bottom p-2 align-items-center">
+              <div class="col"><p class="m-0">Web-Technologies</p></div>
+              <div class="col"><p class="m-0">1</p></div>
+              <div class="col"><p class="m-0">1</p></div>
+              <div class="col"><p class="m-0">2</p></div>
+              <div class="col"><button class="btn btn-primary">Edit</button><button class="btn btn-danger ml-2">Delete</button></div>
+            </div>
+            <div class="row border-bottom p-2 align-items-center">
+              <div class="col"><p class="m-0">Web-Technologies</p></div>
+              <div class="col"><p class="m-0">1</p></div>
+              <div class="col"><p class="m-0">1</p></div>
+              <div class="col"><p class="m-0">2</p></div>
+              <div class="col"><button class="btn btn-primary">Edit</button><button class="btn btn-danger ml-2">Delete</button></div>
+            </div>
+            <div class="row border-bottom p-2 align-items-center">
+              <div class="col"><p class="m-0">Web-Technologies</p></div>
+              <div class="col"><p class="m-0">1</p></div>
+              <div class="col"><p class="m-0">1</p></div>
+              <div class="col"><p class="m-0">2</p></div>
+              <div class="col"><button class="btn btn-primary">Edit</button><button class="btn btn-danger ml-2">Delete</button></div>
+            </div>
+            <div class="row border-bottom p-2 align-items-center">
+              <div class="col"><p class="m-0">Web-Technologies</p></div>
+              <div class="col"><p class="m-0">1</p></div>
+              <div class="col"><p class="m-0">1</p></div>
+              <div class="col"><p class="m-0">2</p></div>
+              <div class="col"><button class="btn btn-primary">Edit</button><button class="btn btn-danger ml-2">Delete</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+   <div class="modal fade" id="addGroupModal" tabindex="-1" aria-labelledby="addGroupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="addGroupModalLabel">Add New Group</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="group-name" class="col-form-label">Group Name:</label>
+              <input type="text" class="form-control" id="group-name">
+            </div>
+            <div class="form-group">
+              <label for="metagroup" class="col-form-label">Metagroup:</label>
+              <select class="form-control" id="metagroup">
+                <option>Metagroup 1</option>
+                <option>Metagroup 2</option>
+                <option>Metagroup 3</option>
+                <option>Metagroup 4</option>
+                <option>Metagroup 5</option>
+              </select>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="addDisciplineModal" tabindex="-1" aria-labelledby="addDisciplineModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="addDisciplineModalLabel">Add New Discipline</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="discipline-name" class="col-form-label">Discipline Name:</label>
+              <input type="text" class="form-control" id="discipline-name">
+            </div>
+            <div class="form-group">
+              <label for="number-of-lectures" class="col-form-label">Number of Lectures:</label>
+              <input type="number" class="form-control" id="number-of-lectures">
+            </div>
+            <div class="form-group">
+              <label for="number-of-practices" class="col-form-label">Number of Practices:</label>
+              <input type="number" class="form-control" id="number-of-practices">
+            </div>
+            <div class="form-group">
+              <label for="number-of-labs" class="col-form-label">Number of Labs:</label>
+              <input type="number" class="form-control" id="number-of-labs">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
